@@ -1,4 +1,4 @@
-package Com.SeliniumAutomation.app;
+package Com.SeliniumAutomation.app.Demo_Projects.VWO;
 
 import io.qameta.allure.Link;
 import io.qameta.allure.Owner;
@@ -36,9 +36,5 @@ driver.quit();
 
 
     }
-
-
-
-
 }
 

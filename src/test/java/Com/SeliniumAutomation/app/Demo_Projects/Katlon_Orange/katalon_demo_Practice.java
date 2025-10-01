@@ -1,9 +1,7 @@
-package Com.SeliniumAutomation;
+package Com.SeliniumAutomation.app.Demo_Projects.Katlon_Orange;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

@@ -1,16 +1,12 @@
-package Com.SeliniumAutomation;
+package Com.SeliniumAutomation.app.Demo_Projects.VWO;
 
 import Utills.Commont_o_all;
-import com.google.common.base.Verify;
 
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chromium.ChromiumDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Sampletest1 extends Commont_o_all {
 

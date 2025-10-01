@@ -1,4 +1,4 @@
-package Com.SeliniumAutomation;
+package Com.SeliniumAutomation.app.Demo_Projects.VWO;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Project_1 {
+public class VWO_Practice1 {
     @Test
     public void to_Verify_the_Wrongmail_text() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
@@ -33,6 +33,6 @@ public class Project_1 {
 
     }
 
-    public static class Dynami_path {
+
     }
-}
+

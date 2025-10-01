@@ -1,4 +1,4 @@
-package Com.SeliniumAutomation.app;
+package Com.SeliniumAutomation.app.Demo_Projects.Awesomeqa;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -24,7 +24,7 @@ public class Dynamic_path {
        for (int i=2;i<=row;i++){
            for(int j=1;j<=clo;j++){
                String Dynamicpath = firstpart + i+ secondpart+j+Thirdpart;
-               System.out.println(Dynamicpath);
+            //   System.out.println(Dynamicpath);
                String data = driver.findElement(By.xpath(Dynamicpath)).getText();
                System.out.println(data);
            }
