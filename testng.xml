@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/JakkaThilak/IdeaProjects/Selenium_Automation/src/test/java/Com/SeliniumAutomation/app/vmo_Project_2.java"><classes><class name="Com.SeliniumAutomation.app.Demo_Projects.VWO.vmo_Project_2"><methods><include name="verify_error_message"/></methods></class></classes></test></suite>
