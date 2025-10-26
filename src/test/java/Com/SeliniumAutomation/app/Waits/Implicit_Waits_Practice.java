@@ -1,4 +1,4 @@
-package Com.SeliniumAutomation.app.Demo_Projects.Waits;
+package Com.SeliniumAutomation.app.Waits;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chromium.ChromiumDriver;
