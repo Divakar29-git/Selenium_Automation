@@ -14,7 +14,7 @@ import java.io.IOException;
 public class Reading_Data_fromexcel {
 @Test
     public void readdatafromexcel() throws IOException {
-        FileInputStream file = new FileInputStream("C:\\Users\\JakkaThilak\\IdeaProjects\\Selenium_Automation\\src\\test\\java\\Testdata\\JFAX-23093_JFAX-22217_testcases.xlsx");
+        FileInputStream file = new FileInputStream("C:\\Users\\JakkaThilak\\IdeaProjects\\Selenium_Automation\\src\\test\\java\\Testdata\\");
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("JFAX-23093");
      int totalrow = sheet.getLastRowNum();
