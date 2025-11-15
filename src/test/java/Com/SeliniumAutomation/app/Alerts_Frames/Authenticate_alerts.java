@@ -2,17 +2,15 @@ package Com.SeliniumAutomation.app.Alerts_Frames;
 
 import io.qameta.allure.Link;
 import io.qameta.allure.Owner;
-import jdk.jfr.Description;
-import org.junit.Assert;
-import org.junit.Test;
+import io.qameta.allure.Description;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -36,8 +34,8 @@ public class Authenticate_alerts {
 
          String actualText = text.toString().trim();
 
-        Assert.assertTrue("Expected success message to contain correct text",
-                actualText.contains("Congratulations! You must have the proper credentials"));
+        Assert.assertTrue(actualText.contains("Congratulations! You must have the proper credentials"),
+                "Expected success message to contain correct text");
         } finally {
             driver.quit();
         }

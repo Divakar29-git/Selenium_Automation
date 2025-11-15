@@ -2,18 +2,16 @@ package Com.SeliniumAutomation.app.Alerts_Frames;
 
 import io.qameta.allure.Link;
 import io.qameta.allure.Owner;
-import jdk.jfr.Description;
-import org.junit.Test;
-import org.junit.experimental.runners.Enclosed;
-import org.junit.runner.RunWith;
+import io.qameta.allure.Description;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
